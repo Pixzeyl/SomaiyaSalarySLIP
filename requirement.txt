@@ -1,0 +1,34 @@
+Requirements:
+    pip install mysql-connector-python==8.4.0
+    pip install openpyxl==3.1.3
+    pip install pdfkit==1.0.0
+    pip install pandas==2.2.2
+    pip install pyperclip==1.8.2
+    pip install customtkinter==5.2.2
+    pip install xlrd==2.0.1
+    pip install numpy==1.26.4
+    pip install msoffcrypto-tool==5.4.2
+    pip install weasyprint==61.2
+    pip install pydyf==0.10.0
+    pip install pillow==11.1.0
+    pip install pyinstaller==6.12.0
+    pip install aiosmtplib==4.0.0
+
+add wthmltopdf to path:
+    add it to path environment variable
+
+add weasyprint:
+    download msy2
+    run the commands in msy2 console:
+        pacman -S mingw-w64x86_64-pango
+        pacman -S mingw-w64-ucrt-x86_64-python-gobject
+        pacman -S mingw-w64-ucrt-x86_64gtk4
+
+    add WEASYPRINT_DLL_DIRECTORIES = C:\msys64\mingw64\bin (Installation path)
+
+to reduce exe size:    
+    make a new venv
+    install only required library
+    install pyinstaller
+    then proceed with normal method
+
