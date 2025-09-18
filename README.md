@@ -2,8 +2,6 @@
 A Python-based tool that automates payroll by converting Excel salary data into standardized PDF salary slips with customizable fields. It uses multiprocessing for scalable data handling, pdfKit for dynamic PDF generation, and an SMTP-based email module for secure, automated dispatch to recipients.
 
 
-A Python-based automation tool designed to transform complex Excel salary data into standardized PDF salary slips with efficiency, accuracy, and scalability.
-
 ✨ Key Features
 	•	Excel to PDF Conversion: Converts large and complex Excel datasets into a clean, structured salary slip format.
 	•	Customizable Fields: Supports extensive, user-defined column fields, configurable through detailed requirement analysis.
